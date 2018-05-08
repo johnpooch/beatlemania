@@ -1,0 +1,284 @@
+/*Header Font 1*/
+
+@font-face {
+    font-family: MAGIMT;
+    src: url('../fonts/MAGIMT__.otf');
+}
+
+/*Header Font 2*/
+
+@font-face {
+    font-family: BOOTLE;
+    src: url('../fonts/BOOTLE__.TTF');
+}
+
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+/*DEVICES*/
+
+.barsDiv {
+    text-align: center;
+    margin-top: 5vh;
+    height: 5vh;
+}
+
+.bars {
+    font-size: 3rem;
+    color: black;
+}
+
+.arrowsdownDiv {
+    text-align: center;
+    margin-top: 0;
+    height: 5vh;
+
+}
+
+.navigationDevice {
+    margin-top: 50px;
+    text-align: center;
+    height: 15vh;
+}
+
+.navigationDesktop {
+    display: none;
+}
+
+
+.mainLogo {
+    width: 50%;
+}
+
+
+.appleDiv {
+    margin-top: 100px;
+    text-align: center;
+    height: 45vh;
+}
+
+.apple {
+    width: 50%;
+}
+
+.arrowsdownDiv {
+    height: 10vh;
+}
+
+.arrowsdown {
+    font-size: 5rem;
+    color: gray;
+    margin-bottom: 20vh;
+}
+
+.arrowsdown:hover {
+    color: black;
+}
+
+
+.arrowsdown2:hover {
+    color: white;
+}
+
+.newsHeaderRow {
+    background: black;
+    color: white;
+    height: 13vh;
+}
+
+h2 {
+    font-family: 'MAGIMT';
+    text-align: center;
+    font-size: 5rem;
+}
+
+h3 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: 'MAGIMT';
+    color: white;
+
+}
+
+.sectionCaption {
+    margin-top: 2vh;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.sectionDescription {
+    margin-top: 2vh;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.newsBackgroundImage {
+
+    background: black;
+    text-align: center;
+}
+
+
+.newsItem {
+    text-align: center;
+    background-color: black;
+    height: 35vh;
+    font-size: 0;
+    padding: 0;
+}
+
+.newsItem:hover {
+    background: black;
+    font-size: 1rem;
+}
+
+.newsImage {
+    width: 80%;
+    margin-top: 5px;
+    height: 200px;
+}
+
+.newsItem3 {
+    display: none;
+}
+
+.newsFooter {
+    background: black;
+}
+
+.newsButton {
+    margin-top: 2vh;
+    height: 5vh;
+    text-align: center;
+}
+
+.helpButton {
+    display: none;
+}
+
+.flowerButtonSmall {
+    width: 3%;
+}
+
+
+/*DESKTOP*/
+
+@media only screen and (min-width: 768px) {
+
+    .container {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navigationDevice {
+        display: none;
+    }
+
+    .navigationDesktop {
+        text-align: center;
+        display: inline;
+    }
+
+    .mainLogo {
+        width:60%;
+        padding: 0 20px;
+    }
+
+    .iconsRow {
+        margin-top: 5vh;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .tagRow {
+        background-color: black;
+    }
+
+    .navIcon {
+        display: inline;
+        color: white;
+
+
+    }
+    .navLogo {
+        display: inline;
+    }
+
+    .beaticon {
+        width: 60%;
+        padding-top: 20px;
+         margin-top: 10px
+
+    }
+
+    .navDiv {
+        margin: 10px 0;
+    }
+
+    .navAnchor {
+        font-family: 'MAGIMT', sans-serif;
+        margin: 10px 0;
+        color: gray;
+        font-size: 2rem;
+    }
+
+    .navAnchor:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .johnicon {
+        margin-top: 19px;
+    }
+
+    .paulicon {
+        margin-top: 19px;
+    }
+
+    .appleDiv {
+        margin-top: 20vh;
+        text-align: center;
+    }
+
+    .apple {
+        width: 30%;
+    }
+    
+    .newsHeaderRow {
+        background: transparent;
+        color: black;
+    }
+    
+    .newsContainer {
+        background: black;
+    }
+
+    .newsBackgroundImage {
+        background: url('../images/news1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 88vh;
+        margin: 0 10%;
+    }
+    .newsItem {
+        margin-top: 40vh;
+        height: 30vh;
+        background-color: rgba(0, 0, 0, .75);
+    }
+    .newsItem3 {
+        display: inline;
+    }
+    .newsFooter {
+        background: transparent;
+    }
+}

@@ -1,28 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!--Bootstrap-->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+
     <!--Font Awesome-->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
+
     <!--Main Font-->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    
+
     <!--Style Sheet-->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    
+
     <title>BeatleMania</title>
 </head>
 
 
 <body>
-    
+    <div class="container">
+        <!--BURGER BAR FOR DEVICES-->
+        <div class="row barsDiv visible-xs visible-sm">
+            <a><i class="fa fa-bars bars"></i></a>
+        </div>
+
+        <nav class="row navigationDevice">
+            <img src="images/logo1.png" alt="The Beatles Logo" class="mainLogo"></img>
+        </nav>
+
+
+        <!--Navigation bar-->
+        <nav class=" navigationDesktop">
+            <div class="row iconsRow">
+                <div class="col-xs-2 navIcon">
+                    <img src="images/paulicon.png" alt="Icon of Paul McCartney's head" class="beaticon paulicon"></img>
+                </div>
+                <div class="col-xs-2 navIcon">
+                    <img src="images/johnicon.png" alt="Icon of John Lennon's head" class="beaticon johnicon"></img>
+                </div>
+                <div class="col-xs-4 navLogo">
+                    <img src="images/logo1.png" alt="The Beatles Logo" class="mainLogo"></img>
+                </div>
+                <div class="col-xs-2 navIcon">
+                    <img src="images/staricon.png" alt="Icon of Ringo Star's head" class="beaticon"></img>
+                </div>
+                <div class="col-xs-2 navIcon">
+                    <img src="images/georgeicon.png" alt="Icon of George Harrison's head" class="beaticon"></img>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="row tagRow">
+                <div class="col-xs-2 navDiv">
+                    <a class="navAnchor">News</a>
+                </div>
+                <div class="col-xs-2 navDiv">
+                    <a class="navAnchor">Love, Love, Love</a>
+                </div>
+                <div class="col-xs-4 ">
+                    <a></a>
+                </div>
+                <div class="col-xs-2 navDiv">
+                    <a class="navAnchor">For Sale</a>
+                </div>
+                <div class="col-xs-2 navDiv">
+                    <a class="navAnchor">Contact</a>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!--Main image index-->
+        <div class="row appleDiv">
+            <img src="images/apple1.jpg" class="apple"></img>
+        </div>
+
+        <div class="row arrowsdownDiv">
+            <a><i class="fa fa-angle-double-down arrowsdown"></i></a>
+        </div>
+
+
+        <div class="row newsHeaderRow">
+            <h2><img src="images/flower1.png" class="flowerButtonSmall"></img> News <img src="images/flower1.png" class="flowerButtonSmall"></img>
+            </h2>
+        </div>
+        <!--News index-->
+        <div class="newsContainer">
+            <div class="newsBackgroundImage">
+            <div class="row holder">
+                <div class="col-sm-4 newsItem newsItem1">
+                    <img src="images/ringoNews.jpg" class="newsImage"></img>
+                    <h3>Ringo's brand new video for "Give More Love"</h3>
+                </div>
+                <div class="col-sm-4 newsItem newsItem2 center-block">
+                    <img src="images/georgeNews.jpg" class="newsImage"></img>
+                    <h3>The George Harrison estate announces HariSongs</h3>
+                </div>
+                <div class="col-sm-4 newsItem newsItem3">
+                    <img src="images/paulNews.jpg" class="newsImage"></img>
+                    <h3>Paul to Headline Austin City Limits Music Festival</h3>
+                </div>
+            </div>
+            <div class="row newsFooter">
+                <div class="newsButton">
+                    <h4>More News</h4>
+                </div>
+                <div class="arrowsdownDiv">
+                    <a><i class="fa fa-angle-double-down arrowsdown arrowsdown2"></i></a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        
+
+
+
+
+
+
+
+    </div>
+
+
+
 </body>
+
 </html>
